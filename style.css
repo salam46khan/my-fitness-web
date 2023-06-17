@@ -14,6 +14,12 @@ h1{
     line-height: 1.4;
     font-weight: 800;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 p{
     font-size: 18px;
 }
@@ -83,3 +89,44 @@ p{
 /* about end ============================================= */
 
 
+/* session start ========================================== */
+.session{
+    padding:2% 5%;
+    overflow:hidden;
+}
+.title-section{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.session-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.item{
+    width: 45%;
+    padding: 20px;
+    background: #fff3;
+    border-radius: 10px;
+    box-shadow: #0005 3px 4px 15px;
+}
+.item img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* session end ========================================== */
+
+/* feedback start ======================================== */
+.feedback{
+    padding: 5%;
+}
+.feedback-content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    background: #fff3;
+    box-shadow: #0005 3px 4px 15px;
+}
