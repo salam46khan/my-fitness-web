@@ -130,3 +130,14 @@ p{
     background: #fff3;
     box-shadow: #0005 3px 4px 15px;
 }
+/* feedback end=========================================== */
+
+/* footer start =========================================== */
+footer{
+    padding: 5%;
+    background: #000;
+    text-align: center;
+}
+footer>p{
+    color: #eee;
+}
